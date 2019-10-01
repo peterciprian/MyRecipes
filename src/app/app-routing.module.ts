@@ -7,13 +7,13 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'about', loadChildren: './about#AboutModule' },
-  { path: 'home', loadChildren: './home#HomeModule' },
-  { path: 'maintenance', loadChildren: './maintenance#MaintenanceModule' },
-  { path: 'profile', loadChildren: './profile#ProfileModule' },
-  { path: 'recipes', loadChildren: './recipes#RecipesModule' },
-  { path: 'seasonal', loadChildren: './seasonal#SeasonalModule' },
-  { path: 'shops', loadChildren: './shops#ShopsModule' },
+  { path: 'about', loadChildren: './about/about.module#AboutModule' },
+  { path: 'home', loadChildren: './home/home.module#HomeModule' },
+  { path: 'maintenance', loadChildren: './maintenance/maintenance.module#MaintenanceModule' },
+  { path: 'profile', loadChildren: './profile/profile.module#ProfileModule' },
+  { path: 'recipes', loadChildren: './recipes/recipes.module#RecipesModule' },
+  { path: 'seasonal', loadChildren: './seasonal/seasonal.module#SeasonalModule' },
+  { path: 'shops', loadChildren: './shops/shops.module#ShopsModule' },
   // { path: '**', component: NotFoundComponent },
   // {
   //  path: 'externalRedirect',
