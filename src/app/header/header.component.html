@@ -1,1 +1,46 @@
-<p>header works!</p>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" routerLink="home" routerLinkActive="active"><div class="logo">Idényrecept.hu</div></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav nav-list">
+            <li class="nav-item" routerLinkActive="active">
+              <a class="nav-link"  routerLink="about">Mi ez?</a>
+            </li>
+            <li class="nav-item" routerLinkActive="active">
+              <a class="nav-link"  routerLink="seasonal">Mikor, mit?</a>
+            </li>
+            <li class="nav-item" routerLinkActive="active">
+              <a class="nav-link"  routerLink="recipes">Receptek</a>
+            </li>
+            <li class="nav-item dropdown" routerLinkActive="active">
+              <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Tudástár
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" routerLink="database/shops">Boltok</a>
+                <a class="dropdown-item" routerLink="database/articles">Cikkek</a>
+                <a class="dropdown-item" routerLink="database/videos">Videók</a>
+                <a class="dropdown-item" routerLink="database/events">Események</a>
+              </div>
+            </li>
+            <li class="nav-item" routerLinkActive="active">
+              <a class="nav-link" routerLink="login">Bejelentkezés</a>
+            </li>
+            <li class="nav-item" routerLinkActive="active">
+              <a class="nav-link" routerLink="maintenance">Karbantartás</a>
+            </li>
+            <li class="nav-item dropdown" routerLinkActive="active">
+              <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Személyes
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" routerLink="profile/data">Adataim</a>
+                <a class="dropdown-item" routerLink="profile/favs">Kedvenceim</a>
+                <a class="dropdown-item" routerLink="profile/filters">Keresőm</a>
+                <a class="dropdown-item" routerLink="profile/badges">Sikereim</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
