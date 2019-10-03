@@ -13,14 +13,16 @@ const routes: Routes = [
   { path: 'profile', loadChildren: './profile/profile.module#ProfileModule' },
   { path: 'recipes', loadChildren: './recipes/recipes.module#RecipesModule' },
   { path: 'seasonal', loadChildren: './seasonal/seasonal.module#SeasonalModule' },
-  { path: 'shops', loadChildren: './shops/shops.module#ShopsModule' },
+  { path: 'login', loadChildren: './login/login.module#LoginModule' },
+  { path: 'register', loadChildren: './register/register.module#RegisterModule' },
+  { path: 'database', loadChildren: './database/database.module#DatabaseModule' },
   // { path: '**', component: NotFoundComponent },
   // {
   //  path: 'externalRedirect',
   //  resolve: {
   //    url: externalUrlProvider,
   //  },
-    // We need a component here because we cannot define the route otherwise
+  // We need a component here because we cannot define the route otherwise
   //  component: NotFoundComponent,
   // }
 ];
