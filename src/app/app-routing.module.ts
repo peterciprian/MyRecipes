@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 // import { NotFoundComponent } from 'src/app/core/not-found/not-found.component';
 // import { externalUrlProvider } from 'src/app/core';
@@ -16,7 +17,7 @@ const routes: Routes = [
   { path: 'login', loadChildren: './login/login.module#LoginModule' },
   { path: 'register', loadChildren: './register/register.module#RegisterModule' },
   { path: 'database', loadChildren: './database/database.module#DatabaseModule' },
-  // { path: '**', component: NotFoundComponent },
+  { path: '**', component: NotFoundComponent },
   // {
   //  path: 'externalRedirect',
   //  resolve: {

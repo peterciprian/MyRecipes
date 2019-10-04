@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styles: []
 })
 export class DatabaseComponent implements OnInit {
-
-  constructor() { }
+  private typeName: string;
+  constructor() {
+    this.typeName = this.getName();
+  }
 
   ngOnInit() {
   }
 
+  getName() {
+    return this.constructor.name;
+  }
 }

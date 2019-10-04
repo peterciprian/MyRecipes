@@ -1,0 +1,77 @@
+<h2>Új receptet küldök be</h2>
+<form>
+
+  <label class="sr-only" for="newRecipeName">A recept neve</label>
+  <div class="input-group mb-2 mr-sm-2">
+    <div class="input-group-prepend">
+      <div class="input-group-text vw9">A recept neve</div>
+    </div>
+    <input id="newRecipeName" type="text" class="form-control" [(ngModel)]="newRecipe.name" name="recipeName" />
+  </div>
+
+  <label class="sr-only" for="newRecipeType">Típusa</label>
+  <div class="input-group mb-2 mr-sm-2">
+    <div class="input-group-prepend">
+      <div class=" input-group-text vw9">Típusa</div>
+    </div>
+    <select class="form-control" id="newRecipeType" name="type" [(ngModel)]="newRecipe.type">
+      <option *ngFor="let type of typeList">{{type}}</option>
+    </select>
+  </div>
+
+  <label class="sr-only" for="newRecipeTemperature">Jellege</label>
+  <div class="input-group mb-2 mr-sm-2">
+    <div class="input-group-prepend">
+      <div class=" input-group-text vw9">Jellege</div>
+    </div>
+    <select class="form-control" id="newRecipeTemperature" name="temperature" [(ngModel)]="newRecipe.temperature">
+      <option *ngFor="let temperature of temperatureList">{{temperature}}</option>
+    </select>
+  </div>
+
+  <label class="sr-only" for="newRecipeLacking">Mentesség</label>
+  <div class="input-group mb-2 mr-sm-2">
+    <div class="input-group-prepend">
+      <div class=" input-group-text vw9">Mentesség</div>
+    </div>
+    <select class="form-control" id="newRecipeLacking" name="lacking" [(ngModel)]="newRecipe.lackings" size="3"
+      multiple>
+      <option *ngFor="let lacking of lackingList">{{lacking}}</option>
+    </select>
+  </div>
+
+  <label class="sr-only" for="newIngredentName">Hozzávalók</label>
+  <div class="input-group mb-2 mr-sm-2">
+    <div class="input-group-prepend">
+      <div class=" input-group-text vw9">Hozzávalók</div>
+    </div>
+    <input id="newIngredentName" type="text" class="form-control" [(ngModel)]="newIngredent.name"
+      [ngbTypeahead]="ingredentSearch" name="name" placeholder="összetevő" />
+    <input id="newIngredentUnit" type="text" class="form-control" [(ngModel)]="newIngredent.unit" name="unit"
+      placeholder="pl: 6 dkg" />
+    <button class="btn btn-outline btn-light" (click)="add()">+</button>
+  </div>
+
+  <div *ngFor="let ingredent of this.newRecipe.ingredents" class="row">
+    <div class="col-8">
+      <label id="ingredentName" type="text" class="form-control" name="ingredentName">{{ingredent.name}}</label>
+    </div>
+    <div class="col-3">
+      <label id="ingredentUnit" type="text" class="form-control" name="ingredentUnit">{{ingredent.unit}}</label>
+    </div>
+    <div class="col-1">
+      <button class="btn btn-outline btn-light" (click)="remove(ingredent)">X</button>
+    </div>
+  </div>
+
+  <label class="sr-only" for="newRecipeLacking">Elkészítés</label>
+  <div class="input-group mb-2 mr-sm-2">
+    <div class="input-group-prepend">
+      <div class=" input-group-text vw9">Elkészítés</div>
+    </div>
+    <textarea class="form-control" id="preparation" rows="8" name="preparation"
+      [(ngModel)]="newRecipe.preparation"></textarea>
+  </div>
+
+  <button class="btn btn-outline btn-secondary btn-block" (click)="submit()">BEKÜLDÖM</button>
+</form>

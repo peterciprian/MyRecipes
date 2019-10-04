@@ -1,0 +1,63 @@
+<form class="form-inline">
+  <label class="sr-only" for="month_select">Hónap</label>
+  <div class="input-group mb-2 mr-sm-2">
+    <div class="input-group-prepend">
+      <div class="input-group-text">Hónap</div>
+    </div>
+    <select class="form-control" id="month_select" name="month" [(ngModel)]="month">
+      <option *ngFor="let month of months">{{month}}</option>
+    </select>
+  </div>
+
+  <label class="sr-only" for="type_select">Típus</label>
+  <div class="input-group mb-2 mr-sm-2">
+    <div class="input-group-prepend">
+      <div class="input-group-text">Típus</div>
+    </div>
+    <select class="form-control" id="type_select" name="type" [(ngModel)]="type" multiple size="3">
+      <option *ngFor="let type of types">{{type}}</option>
+    </select>
+  </div>
+
+  <label class="sr-only" for="lacking_select">Mentesség</label>
+  <div class="input-group mb-2 mr-sm-2">
+    <div class="input-group-prepend">
+      <div class="input-group-text">Mentesség</div>
+    </div>
+    <select class="form-control" id="lacking_select" name="lacking" [(ngModel)]="lacking" multiple size="3">
+      <option *ngFor="let lacking of lackings">{{lacking}}</option>
+    </select>
+  </div>
+
+  <label class="sr-only" for="temperature_select">Elkészítés</label>
+  <div class="input-group mb-2 mr-sm-2">
+    <div class="input-group-prepend">
+      <div class="input-group-text">Elkészítés</div>
+    </div>
+    <select class="form-control" id="temperature_select" name="temperature" [(ngModel)]="temperature" multiple size="3">
+      <option *ngFor="let temperature of temperatures">{{temperature}}</option>
+    </select>
+  </div>
+
+  <div class="form-check mb-2 mr-sm-2">
+    <input class="form-check-input" type="checkbox" id="preserved" name="preserved" [(ngModel)]="preserved">
+    <label class="form-check-label" for="preserved">
+      Tartósított alapanyagot tartalmaz
+    </label>
+  </div>
+
+  <button type="button" class="btn btn-info mb-2" (click)="find()">LÁSSUK</button>
+</form>
+<div class="results">
+
+  <div *ngFor="let recipe of recipes" class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{recipe.name}}</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+        content.</p>
+      <a href="#" class="btn btn-primary" routerLink="/recipes/show/{{recipe.id}}">MEGNÉZEM</a>
+    </div>
+  </div>
+
+</div>
