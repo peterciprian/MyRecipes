@@ -4,6 +4,7 @@ import { Observable } from 'rxjs';
 import { debounceTime, distinctUntilChanged, map } from 'rxjs/operators';
 import { SearchOptionsService } from '../search/search-options.service';
 import { Ingredent, Recipe } from '../recipe';
+import { CrudService } from 'src/app/shared/crud.service';
 
 @Component({
   selector: 'app-submit',
@@ -23,7 +24,7 @@ export class SubmitComponent implements OnInit {
   protected lackingList: string[];
   protected temperatureList: string[];
 
-  constructor(options: SearchOptionsService) {
+  constructor(private options: SearchOptionsService, private crudService: CrudService) {
     this.months = options.months;
     this.month = options.months[new Date(Date.now()).getMonth()];
     this.ingredentList = options.ingredents.sort();
@@ -61,6 +62,7 @@ export class SubmitComponent implements OnInit {
     this.newRecipe.created = new Date(Date.now());
     this.newRecipe.uploader = 'default user';
     console.log(this.newRecipe);
+    this.crudService.addRecipe(this.newRecipe);
     this.newRecipe = new Recipe();
   }
 }

@@ -13,7 +13,7 @@ export class CrudService {
   constructor(private db: AngularFireDatabase) { }
 
   // Create Recipe
-  AddStudent(recipe: Recipe) {
+  addRecipe(recipe: Recipe) {
     this.recipesRef.push({
       id: recipe.id,
       name: recipe.name,
@@ -35,19 +35,19 @@ export class CrudService {
   }
 
   // Fetch Single Recipe Object
-  GetStudent(id: string) {
+  getRecipe(id: string) {
     this.recipeRef = this.db.object('recipes-list/' + id);
     return this.recipeRef;
   }
 
-  // Fetch Students List
-  GetStudentsList() {
+  // Fetch Recipes List
+  getRecipesList() {
     this.recipesRef = this.db.list('recipes-list');
     return this.recipesRef;
   }
 
   // Update Recipe Object
-  UpdateStudent(recipe: Recipe) {
+  updateRecipe(recipe: Recipe) {
     this.recipeRef.update({
       id: recipe.id,
       name: recipe.name,
@@ -69,7 +69,7 @@ export class CrudService {
   }
 
   // Delete Recipe Object
-  DeleteStudent(id: string) {
+  deleteRecipe(id: string) {
     this.recipeRef = this.db.object('recipes-list/' + id);
     this.recipeRef.remove();
   }
