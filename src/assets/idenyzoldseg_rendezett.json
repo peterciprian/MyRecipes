@@ -1,79 +1,123 @@
-[
-   {
-      "Alma":{
-         "b":[
+[ 
+   { 
+      "Alma":{ 
+         "b":[ 
             "VI.",
             "VII.",
             "VIII.",
             "IX.",
             "X."
          ],
-         "t":[
+         "t":[ 
             "I.",
             "II.",
             "III.",
             "IV.",
             "XI.",
             "XII."
+         ],
+         "a":[ 
+            "I.",
+            "II.",
+            "III.",
+            "IV.",
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI.",
+            "XII."
          ]
       },
-      "Áfonya":{
-         "b":[
+      "Áfonya":{ 
+         "b":[ 
             "VII.",
             "VIII.",
             "IX."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "VII.",
+            "VIII.",
+            "IX."
          ]
       },
-      "Bazsalikom":{
-         "b":[
+      "Bazsalikom":{ 
+         "b":[ 
             "VI.",
             "VII.",
             "VIII.",
             "IX.",
             "X."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X."
          ]
       },
-      "Birsalma és körte":{
-         "b":[
+      "Birsalma és körte":{ 
+         "b":[ 
             "IX.",
             "X.",
             "XI."
          ],
-         "t":[
+         "t":[ 
             "I.",
+            "XII."
+         ],
+         "a":[ 
+            "I.",
+            "IX.",
+            "X.",
+            "XI.",
             "XII."
          ]
       },
-      "Berkenye":{
-         "b":[
+      "Berkenye":{ 
+         "b":[ 
             "IX.",
             "X.",
             "XI."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "IX.",
+            "X.",
+            "XI."
          ]
       },
-      "Borsikafű":{
-         "b":[
+      "Borsikafű":{ 
+         "b":[ 
             "VI.",
             "VII.",
             "VIII.",
             "IX.",
             "X."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X."
          ]
       },
-      "Burgonya":{
-         "b":[
+      "Burgonya":{ 
+         "b":[ 
             "V.",
             "VI.",
             "VII.",
@@ -81,139 +125,18 @@
             "IX.",
             "X."
          ],
-         "t":[
+         "t":[ 
             "I.",
             "II.",
             "III.",
             "IV.",
             "XI.",
             "XII."
-         ]
-      },
-      "Brokkoli":{
-         "b":[
-            "V.",
-            "VI.",
-            "IX.",
-            "X.",
-            "XI."
          ],
-         "t":[
-
-         ]
-      },
-      "Cékla":{
-         "b":[
-            "V.",
-            "VI.",
-            "VII.",
-            "VIII.",
-            "IX.",
-            "X."
-         ],
-         "t":[
+         "a":[ 
             "I.",
             "II.",
             "III.",
-            "XI.",
-            "XII."
-         ]
-      },
-      "Cikória":{
-         "b":[
-            "I.",
-            "X.",
-            "XI.",
-            "XII."
-         ],
-         "t":[
-
-         ]
-      },
-      "Citromfű":{
-         "b":[
-            "VI.",
-            "VII.",
-            "VIII.",
-            "IX.",
-            "X.",
-            "XI."
-         ],
-         "t":[
-
-         ]
-      },
-      "Cukkini":{
-         "b":[
-            "VII.",
-            "VIII.",
-            "IX.",
-            "X."
-         ],
-         "t":[
-
-         ]
-      },
-      "Cukorsüveg saláta":{
-         "b":[
-            "V.",
-            "VI.",
-            "IX.",
-            "X.",
-            "XI."
-         ],
-         "t":[
-
-         ]
-      },
-      "Csemege-kukorica":{
-         "b":[
-            "VII.",
-            "VIII.",
-            "IX.",
-            "X."
-         ],
-         "t":[
-
-         ]
-      },
-      "Cseresznye":{
-         "b":[
-            "V.",
-            "VI."
-         ],
-         "t":[
-
-         ]
-      },
-      "Csicsóka":{
-         "b":[
-            "I.",
-            "II.",
-            "V.",
-            "VI.",
-            "VII.",
-            "VIII.",
-            "IX.",
-            "X.",
-            "XI.",
-            "XII."
-         ],
-         "t":[
-
-         ]
-      },
-      "Egres":{
-         "b":[
-            "V.",
-            "VI."
-         ],
-         "t":[
-
-         ]
-      },
-      "Endívia":{
-         "b":[
             "IV.",
             "V.",
             "VI.",
@@ -223,13 +146,232 @@
             "X.",
             "XI.",
             "XII."
-         ],
-         "t":[
-
          ]
       },
-      "Édeskáposzta":{
-         "b":[
+      "Brokkoli":{ 
+         "b":[ 
+            "V.",
+            "VI.",
+            "IX.",
+            "X.",
+            "XI."
+         ],
+         "t":[ 
+
+         ],
+         "a":[ 
+            "V.",
+            "VI.",
+            "IX.",
+            "X.",
+            "XI."
+         ]
+      },
+      "Cékla":{ 
+         "b":[ 
+            "V.",
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X."
+         ],
+         "t":[ 
+            "I.",
+            "II.",
+            "III.",
+            "XI.",
+            "XII."
+         ],
+         "a":[ 
+            "I.",
+            "II.",
+            "III.",
+            "V.",
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI.",
+            "XII."
+         ]
+      },
+      "Cikória":{ 
+         "b":[ 
+            "I.",
+            "X.",
+            "XI.",
+            "XII."
+         ],
+         "t":[ 
+
+         ],
+         "a":[ 
+            "I.",
+            "X.",
+            "XI.",
+            "XII."
+         ]
+      },
+      "Citromfű":{ 
+         "b":[ 
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI."
+         ],
+         "t":[ 
+
+         ],
+         "a":[ 
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI."
+         ]
+      },
+      "Cukkini":{ 
+         "b":[ 
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X."
+         ],
+         "t":[ 
+
+         ],
+         "a":[ 
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X."
+         ]
+      },
+      "Cukorsüveg saláta":{ 
+         "b":[ 
+            "V.",
+            "VI.",
+            "IX.",
+            "X.",
+            "XI."
+         ],
+         "t":[ 
+
+         ],
+         "a":[ 
+            "V.",
+            "VI.",
+            "IX.",
+            "X.",
+            "XI."
+         ]
+      },
+      "Csemege-kukorica":{ 
+         "b":[ 
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X."
+         ],
+         "t":[ 
+
+         ],
+         "a":[ 
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X."
+         ]
+      },
+      "Cseresznye":{ 
+         "b":[ 
+            "V.",
+            "VI."
+         ],
+         "t":[ 
+
+         ],
+         "a":[ 
+            "V.",
+            "VI."
+         ]
+      },
+      "Csicsóka":{ 
+         "b":[ 
+            "I.",
+            "II.",
+            "V.",
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI.",
+            "XII."
+         ],
+         "t":[ 
+
+         ],
+         "a":[ 
+            "I.",
+            "II.",
+            "V.",
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI.",
+            "XII."
+         ]
+      },
+      "Egres":{ 
+         "b":[ 
+            "V.",
+            "VI."
+         ],
+         "t":[ 
+
+         ],
+         "a":[ 
+            "V.",
+            "VI."
+         ]
+      },
+      "Endívia":{ 
+         "b":[ 
+            "IV.",
+            "V.",
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI.",
+            "XII."
+         ],
+         "t":[ 
+
+         ],
+         "a":[ 
+            "IV.",
+            "V.",
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI.",
+            "XII."
+         ]
+      },
+      "Édeskáposzta":{ 
+         "b":[ 
             "V.",
             "VI.",
             "VII.",
@@ -238,23 +380,39 @@
             "X.",
             "XI."
          ],
-         "t":[
+         "t":[ 
             "I.",
             "II.",
             "III.",
             "XII."
+         ],
+         "a":[ 
+            "I.",
+            "II.",
+            "III.",
+            "V.",
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI.",
+            "XII."
          ]
       },
-      "Faeper (fekete és fehér eper)":{
-         "b":[
+      "Faeper (fekete és fehér eper)":{ 
+         "b":[ 
             "VII."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "VII."
          ]
       },
-      "Fejes saláta":{
-         "b":[
+      "Fejes saláta":{ 
+         "b":[ 
             "IV.",
             "V.",
             "VI.",
@@ -265,12 +423,23 @@
             "XI.",
             "XII."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "IV.",
+            "V.",
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI.",
+            "XII."
          ]
       },
-      "Fekete retek":{
-         "b":[
+      "Fekete retek":{ 
+         "b":[ 
             "V.",
             "VI.",
             "VII.",
@@ -278,104 +447,168 @@
             "IX.",
             "X."
          ],
-         "t":[
+         "t":[ 
             "I.",
             "II.",
             "III.",
             "XI.",
             "XII."
+         ],
+         "a":[ 
+            "I.",
+            "II.",
+            "III.",
+            "V.",
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI.",
+            "XII."
          ]
       },
-      "Fekete ribizli":{
-         "b":[
+      "Fekete ribizli":{ 
+         "b":[ 
             "V."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "V."
          ]
       },
-      "Fodros kel":{
-         "b":[
+      "Fodros kel":{ 
+         "b":[ 
             "VII.",
             "VIII.",
             "IX.",
             "X.",
             "XI."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI."
          ]
       },
-      "Fokhagyma":{
-         "b":[
+      "Fokhagyma":{ 
+         "b":[ 
             "V.",
             "VI.",
             "VII.",
             "VIII.",
             "IX."
          ],
-         "t":[
+         "t":[ 
             "I.",
             "II.",
             "III.",
             "X.",
             "XI.",
             "XII."
+         ],
+         "a":[ 
+            "I.",
+            "II.",
+            "III.",
+            "V.",
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI.",
+            "XII."
          ]
       },
-      "Földieper (szamóca)":{
-         "b":[
+      "Földieper (szamóca)":{ 
+         "b":[ 
             "V.",
             "VI."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "V.",
+            "VI."
          ]
       },
-      "Főzőtök":{
-         "b":[
+      "Főzőtök":{ 
+         "b":[ 
             "VII.",
             "VIII.",
             "IX.",
             "X."
          ],
-         "t":[
+         "t":[ 
+            "XI.",
+            "XII."
+         ],
+         "a":[ 
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
             "XI.",
             "XII."
          ]
       },
-      "Füge":{
-         "b":[
+      "Füge":{ 
+         "b":[ 
             "VII.",
             "VIII.",
             "IX.",
             "X."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X."
          ]
       },
-      "Gesztenye":{
-         "b":[
+      "Gesztenye":{ 
+         "b":[ 
             "IX.",
             "X."
          ],
-         "t":[
+         "t":[ 
+            "XI.",
+            "XII."
+         ],
+         "a":[ 
+            "IX.",
+            "X.",
             "XI.",
             "XII."
          ]
       },
-      "Görögdinnye":{
-         "b":[
+      "Görögdinnye":{ 
+         "b":[ 
             "VII.",
             "VIII."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "VII.",
+            "VIII."
          ]
       },
-      "Gumós kömény":{
-         "b":[
+      "Gumós kömény":{ 
+         "b":[ 
             "V.",
             "VI.",
             "VII.",
@@ -383,77 +616,38 @@
             "IX.",
             "X."
          ],
-         "t":[
+         "t":[ 
+            "XI."
+         ],
+         "a":[ 
+            "V.",
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
             "XI."
          ]
       },
-      "Hónapos retek":{
-         "b":[
+      "Hónapos retek":{ 
+         "b":[ 
             "IV.",
             "V.",
             "VI.",
             "X."
          ],
-         "t":[
+         "t":[ 
 
-         ]
-      },
-      "Jégsaláta":{
-         "b":[
-            "V.",
-            "VI.",
-            "VII.",
-            "VIII.",
-            "IX.",
-            "X."
          ],
-         "t":[
-
-         ]
-      },
-      "Kakukkfű":{
-         "b":[
-            "VI.",
-            "VII.",
-            "VIII.",
-            "IX.",
-            "X.",
-            "XI."
-         ],
-         "t":[
-
-         ]
-      },
-      "Kapor":{
-         "b":[
-            "V.",
-            "VI.",
-            "VII.",
-            "VIII.",
-            "IX.",
-            "X."
-         ],
-         "t":[
-
-         ]
-      },
-      "Karalábé":{
-         "b":[
+         "a":[ 
             "IV.",
             "V.",
             "VI.",
-            "VII.",
-            "VIII.",
-            "IX.",
             "X."
-         ],
-         "t":[
-            "XI.",
-            "XII."
          ]
       },
-      "Karfiol":{
-         "b":[
+      "Jégsaláta":{ 
+         "b":[ 
             "V.",
             "VI.",
             "VII.",
@@ -461,24 +655,20 @@
             "IX.",
             "X."
          ],
-         "t":[
+         "t":[ 
 
-         ]
-      },
-      "Kelbimbó":{
-         "b":[
-            "IX.",
-            "X.",
-            "XI.",
-            "XII."
          ],
-         "t":[
-
+         "a":[ 
+            "V.",
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X."
          ]
       },
-      "Kelkáposzta":{
-         "b":[
-            "V.",
+      "Kakukkfű":{ 
+         "b":[ 
             "VI.",
             "VII.",
             "VIII.",
@@ -486,50 +676,20 @@
             "X.",
             "XI."
          ],
-         "t":[
-            "I.",
-            "II.",
-            "XII."
-         ]
-      },
-      "Kínai kel":{
-         "b":[
-            "IV.",
-            "V.",
-            "VI.",
-            "IX.",
-            "X.",
-            "XI."
-         ],
-         "t":[
+         "t":[ 
 
-         ]
-      },
-      "Koriander":{
-         "b":[
+         ],
+         "a":[ 
             "VI.",
             "VII.",
             "VIII.",
             "IX.",
             "X.",
             "XI."
-         ],
-         "t":[
-
          ]
       },
-      "Kökény":{
-         "b":[
-            "I.",
-            "II.",
-            "XII."
-         ],
-         "t":[
-
-         ]
-      },
-      "Körömvirág":{
-         "b":[
+      "Kapor":{ 
+         "b":[ 
             "V.",
             "VI.",
             "VII.",
@@ -537,26 +697,20 @@
             "IX.",
             "X."
          ],
-         "t":[
+         "t":[ 
 
-         ]
-      },
-      "Körte":{
-         "b":[
+         ],
+         "a":[ 
+            "V.",
+            "VI.",
             "VII.",
             "VIII.",
             "IX.",
             "X."
-         ],
-         "t":[
-            "I.",
-            "II.",
-            "XI.",
-            "XII."
          ]
       },
-      "Lestyán":{
-         "b":[
+      "Karalábé":{ 
+         "b":[ 
             "IV.",
             "V.",
             "VI.",
@@ -565,24 +719,24 @@
             "IX.",
             "X."
          ],
-         "t":[
-
-         ]
-      },
-      "Levendula":{
-         "b":[
+         "t":[ 
+            "XI.",
+            "XII."
+         ],
+         "a":[ 
+            "IV.",
+            "V.",
             "VI.",
             "VII.",
             "VIII.",
             "IX.",
-            "X."
-         ],
-         "t":[
-
+            "X.",
+            "XI.",
+            "XII."
          ]
       },
-      "Lilahagyma":{
-         "b":[
+      "Karfiol":{ 
+         "b":[ 
             "V.",
             "VI.",
             "VII.",
@@ -590,15 +744,38 @@
             "IX.",
             "X."
          ],
-         "t":[
-            "I.",
-            "II.",
+         "t":[ 
+
+         ],
+         "a":[ 
+            "V.",
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X."
+         ]
+      },
+      "Kelbimbó":{ 
+         "b":[ 
+            "IX.",
+            "X.",
+            "XI.",
+            "XII."
+         ],
+         "t":[ 
+
+         ],
+         "a":[ 
+            "IX.",
+            "X.",
             "XI.",
             "XII."
          ]
       },
-      "Lilakáposzta":{
-         "b":[
+      "Kelkáposzta":{ 
+         "b":[ 
+            "V.",
             "VI.",
             "VII.",
             "VIII.",
@@ -606,14 +783,224 @@
             "X.",
             "XI."
          ],
-         "t":[
+         "t":[ 
+            "I.",
+            "II.",
+            "XII."
+         ],
+         "a":[ 
+            "I.",
+            "II.",
+            "V.",
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI.",
+            "XII."
+         ]
+      },
+      "Kínai kel":{ 
+         "b":[ 
+            "IV.",
+            "V.",
+            "VI.",
+            "IX.",
+            "X.",
+            "XI."
+         ],
+         "t":[ 
+
+         ],
+         "a":[ 
+            "IV.",
+            "V.",
+            "VI.",
+            "IX.",
+            "X.",
+            "XI."
+         ]
+      },
+      "Koriander":{ 
+         "b":[ 
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI."
+         ],
+         "t":[ 
+
+         ],
+         "a":[ 
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI."
+         ]
+      },
+      "Kökény":{ 
+         "b":[ 
+            "I.",
+            "II.",
+            "XII."
+         ],
+         "t":[ 
+
+         ],
+         "a":[ 
             "I.",
             "II.",
             "XII."
          ]
       },
-      "Madársaláta":{
-         "b":[
+      "Körömvirág":{ 
+         "b":[ 
+            "V.",
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X."
+         ],
+         "t":[ 
+
+         ],
+         "a":[ 
+            "V.",
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X."
+         ]
+      },
+      "Körte":{ 
+         "b":[ 
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X."
+         ],
+         "t":[ 
+            "I.",
+            "II.",
+            "XI.",
+            "XII."
+         ],
+         "a":[ 
+            "I.",
+            "II.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI.",
+            "XII."
+         ]
+      },
+      "Lestyán":{ 
+         "b":[ 
+            "IV.",
+            "V.",
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X."
+         ],
+         "t":[ 
+
+         ],
+         "a":[ 
+            "IV.",
+            "V.",
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X."
+         ]
+      },
+      "Levendula":{ 
+         "b":[ 
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X."
+         ],
+         "t":[ 
+
+         ],
+         "a":[ 
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X."
+         ]
+      },
+      "Lilahagyma":{ 
+         "b":[ 
+            "V.",
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X."
+         ],
+         "t":[ 
+            "I.",
+            "II.",
+            "XI.",
+            "XII."
+         ],
+         "a":[ 
+            "I.",
+            "II.",
+            "V.",
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI.",
+            "XII."
+         ]
+      },
+      "Lilakáposzta":{ 
+         "b":[ 
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI."
+         ],
+         "t":[ 
+            "I.",
+            "II.",
+            "XII."
+         ],
+         "a":[ 
+            "I.",
+            "II.",
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI.",
+            "XII."
+         ]
+      },
+      "Madársaláta":{ 
+         "b":[ 
             "IV.",
             "V.",
             "VI.",
@@ -622,33 +1009,53 @@
             "XI.",
             "XII."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "IV.",
+            "V.",
+            "VI.",
+            "IX.",
+            "X.",
+            "XI.",
+            "XII."
          ]
       },
-      "Majoranna":{
-         "b":[
+      "Majoranna":{ 
+         "b":[ 
             "VI.",
             "VII.",
             "VIII.",
             "IX.",
             "X."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X."
          ]
       },
-      "Málna":{
-         "b":[
+      "Málna":{ 
+         "b":[ 
             "V.",
             "VI."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "V.",
+            "VI."
          ]
       },
-      "Mángold":{
-         "b":[
+      "Mángold":{ 
+         "b":[ 
             "V.",
             "VI.",
             "VII.",
@@ -657,63 +1064,98 @@
             "X.",
             "XI."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "V.",
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI."
          ]
       },
-      "Meggy":{
-         "b":[
+      "Meggy":{ 
+         "b":[ 
             "V.",
             "VI."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "V.",
+            "VI."
          ]
       },
-      "Menta":{
-         "b":[
+      "Menta":{ 
+         "b":[ 
             "VI.",
             "VII.",
             "VIII.",
             "IX.",
             "X."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X."
          ]
       },
-      "Mizuna":{
-         "b":[
+      "Mizuna":{ 
+         "b":[ 
             "IV.",
             "V.",
             "VI.",
             "IX.",
             "X."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "IV.",
+            "V.",
+            "VI.",
+            "IX.",
+            "X."
          ]
       },
-      "Naspolya":{
-         "b":[
+      "Naspolya":{ 
+         "b":[ 
             "I.",
             "II."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "I.",
+            "II."
          ]
       },
-      "Nektarin":{
-         "b":[
+      "Nektarin":{ 
+         "b":[ 
             "VII.",
             "VIII."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "VII.",
+            "VIII."
          ]
       },
-      "Oreganó (Szurokfű)":{
-         "b":[
+      "Oreganó (Szurokfű)":{ 
+         "b":[ 
             "VI.",
             "VII.",
             "VIII.",
@@ -721,32 +1163,51 @@
             "X.",
             "XI."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI."
          ]
       },
-      "Őszibarack":{
-         "b":[
+      "Őszibarack":{ 
+         "b":[ 
             "VII.",
             "VIII.",
             "IX."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "VII.",
+            "VIII.",
+            "IX."
          ]
       },
-      "Padlizsán":{
-         "b":[
+      "Padlizsán":{ 
+         "b":[ 
             "VII.",
             "VIII.",
             "IX."
          ],
-         "t":[
+         "t":[ 
+            "X."
+         ],
+         "a":[ 
+            "VII.",
+            "VIII.",
+            "IX.",
             "X."
          ]
       },
-      "Pak choi":{
-         "b":[
+      "Pak choi":{ 
+         "b":[ 
             "IV.",
             "V.",
             "VI.",
@@ -754,92 +1215,106 @@
             "X.",
             "XI."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "IV.",
+            "V.",
+            "VI.",
+            "IX.",
+            "X.",
+            "XI."
          ]
       },
-      "Paradicsom":{
-         "b":[
+      "Paradicsom":{ 
+         "b":[ 
             "VI.",
             "VII.",
             "VIII.",
             "IX.",
             "X."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X."
          ]
       },
-      "Pasztinák":{
-         "b":[
+      "Pasztinák":{ 
+         "b":[ 
             "VII.",
             "VIII.",
             "IX.",
             "X."
          ],
-         "t":[
+         "t":[ 
             "I.",
             "II.",
             "XI.",
             "XII."
+         ],
+         "a":[ 
+            "I.",
+            "II.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI.",
+            "XII."
          ]
       },
-      "Patiszon":{
-         "b":[
+      "Patiszon":{ 
+         "b":[ 
             "VII.",
             "VIII.",
             "IX.",
             "X."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X."
          ]
       },
-      "Petrezselyem-gyökér":{
-         "b":[
+      "Petrezselyem-gyökér":{ 
+         "b":[ 
             "VII.",
             "VIII.",
             "IX.",
             "X."
          ],
-         "t":[
+         "t":[ 
             "I.",
             "II.",
             "III.",
             "XI.",
             "XII."
-         ]
-      },
-      "Petrezselyem-zöld":{
-         "b":[
-            "IV.",
-            "V.",
-            "VI.",
+         ],
+         "a":[ 
+            "I.",
+            "II.",
+            "III.",
             "VII.",
             "VIII.",
             "IX.",
             "X.",
-            "XI."
-         ],
-         "t":[
-
-         ]
-      },
-      "Póréhagyma":{
-         "b":[
-            "VIII.",
-            "IX.",
-            "X."
-         ],
-         "t":[
-            "I.",
-            "II.",
             "XI.",
             "XII."
          ]
       },
-      "Radiccio":{
-         "b":[
+      "Petrezselyem-zöld":{ 
+         "b":[ 
             "IV.",
             "V.",
             "VI.",
@@ -849,39 +1324,108 @@
             "X.",
             "XI."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "IV.",
+            "V.",
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI."
          ]
       },
-      "Rebarbara":{
-         "b":[
+      "Póréhagyma":{ 
+         "b":[ 
+            "VIII.",
+            "IX.",
+            "X."
+         ],
+         "t":[ 
+            "I.",
+            "II.",
+            "XI.",
+            "XII."
+         ],
+         "a":[ 
+            "I.",
+            "II.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI.",
+            "XII."
+         ]
+      },
+      "Radiccio":{ 
+         "b":[ 
+            "IV.",
+            "V.",
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI."
+         ],
+         "t":[ 
+
+         ],
+         "a":[ 
+            "IV.",
+            "V.",
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI."
+         ]
+      },
+      "Rebarbara":{ 
+         "b":[ 
             "V.",
             "VI."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "V.",
+            "VI."
          ]
       },
-      "Ribizli":{
-         "b":[
+      "Ribizli":{ 
+         "b":[ 
             "V.",
             "VI."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "V.",
+            "VI."
          ]
       },
-      "Ringló":{
-         "b":[
+      "Ringló":{ 
+         "b":[ 
             "VIII.",
             "IX."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "VIII.",
+            "IX."
          ]
       },
-      "Rozmaring":{
-         "b":[
+      "Rozmaring":{ 
+         "b":[ 
             "VI.",
             "VII.",
             "VIII.",
@@ -889,12 +1433,20 @@
             "X.",
             "XI."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI."
          ]
       },
-      "Rukola":{
-         "b":[
+      "Rukola":{ 
+         "b":[ 
             "IV.",
             "V.",
             "VI.",
@@ -902,30 +1454,46 @@
             "X.",
             "XI."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "IV.",
+            "V.",
+            "VI.",
+            "IX.",
+            "X.",
+            "XI."
          ]
       },
-      "Sárgabarack":{
-         "b":[
+      "Sárgabarack":{ 
+         "b":[ 
             "VII.",
             "VIII."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "VII.",
+            "VIII."
          ]
       },
-      "Sárgadinnye":{
-         "b":[
+      "Sárgadinnye":{ 
+         "b":[ 
             "VII.",
             "VIII."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "VII.",
+            "VIII."
          ]
       },
-      "Sárgarépa":{
-         "b":[
+      "Sárgarépa":{ 
+         "b":[ 
             "V.",
             "VI.",
             "VII.",
@@ -933,16 +1501,29 @@
             "IX.",
             "X."
          ],
-         "t":[
+         "t":[ 
             "I.",
             "II.",
             "III.",
             "XI.",
             "XII."
+         ],
+         "a":[ 
+            "I.",
+            "II.",
+            "III.",
+            "V.",
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI.",
+            "XII."
          ]
       },
-      "Snidling":{
-         "b":[
+      "Snidling":{ 
+         "b":[ 
             "V.",
             "VI.",
             "VII.",
@@ -951,12 +1532,21 @@
             "X.",
             "XI."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "V.",
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI."
          ]
       },
-      "Sóska":{
-         "b":[
+      "Sóska":{ 
+         "b":[ 
             "VI.",
             "VII.",
             "VIII.",
@@ -964,20 +1554,31 @@
             "X.",
             "XI."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI."
          ]
       },
-      "Spárga":{
-         "b":[
+      "Spárga":{ 
+         "b":[ 
             "V."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "V."
          ]
       },
-      "Spenót":{
-         "b":[
+      "Spenót":{ 
+         "b":[ 
             "IV.",
             "V.",
             "VI.",
@@ -985,88 +1586,141 @@
             "X.",
             "XI."
          ],
-         "t":[
+         "t":[ 
 
-         ]
-      },
-      "Sütőtök":{
-         "b":[
-            "VIII.",
-            "IX.",
-            "X."
          ],
-         "t":[
-            "I.",
-            "XI.",
-            "XII."
-         ]
-      },
-      "Szárzeller":{
-         "b":[
-            "VII.",
-            "VIII.",
-            "IX.",
-            "X."
-         ],
-         "t":[
-            "XI.",
-            "XII."
-         ]
-      },
-      "Szeder":{
-         "b":[
-            "VIII.",
-            "IX."
-         ],
-         "t":[
-
-         ]
-      },
-      "Szilva":{
-         "b":[
-            "VII.",
-            "VIII.",
-            "IX."
-         ],
-         "t":[
-
-         ]
-      },
-      "Szőlő":{
-         "b":[
-            "VIII.",
-            "IX.",
-            "X."
-         ],
-         "t":[
-
-         ]
-      },
-      "Tarlórépa":{
-         "b":[
+         "a":[ 
+            "IV.",
+            "V.",
             "VI.",
-            "VII.",
-            "VIII.",
             "IX.",
-            "X."
-         ],
-         "t":[
+            "X.",
             "XI."
          ]
       },
-      "Uborka":{
-         "b":[
+      "Sütőtök":{ 
+         "b":[ 
+            "VIII.",
+            "IX.",
+            "X."
+         ],
+         "t":[ 
+            "I.",
+            "XI.",
+            "XII."
+         ],
+         "a":[ 
+            "I.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI.",
+            "XII."
+         ]
+      },
+      "Szárzeller":{ 
+         "b":[ 
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X."
+         ],
+         "t":[ 
+            "XI.",
+            "XII."
+         ],
+         "a":[ 
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI.",
+            "XII."
+         ]
+      },
+      "Szeder":{ 
+         "b":[ 
+            "VIII.",
+            "IX."
+         ],
+         "t":[ 
+
+         ],
+         "a":[ 
+            "VIII.",
+            "IX."
+         ]
+      },
+      "Szilva":{ 
+         "b":[ 
+            "VII.",
+            "VIII.",
+            "IX."
+         ],
+         "t":[ 
+
+         ],
+         "a":[ 
+            "VII.",
+            "VIII.",
+            "IX."
+         ]
+      },
+      "Szőlő":{ 
+         "b":[ 
+            "VIII.",
+            "IX.",
+            "X."
+         ],
+         "t":[ 
+
+         ],
+         "a":[ 
+            "VIII.",
+            "IX.",
+            "X."
+         ]
+      },
+      "Tarlórépa":{ 
+         "b":[ 
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X."
+         ],
+         "t":[ 
+            "XI."
+         ],
+         "a":[ 
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI."
+         ]
+      },
+      "Uborka":{ 
+         "b":[ 
             "VI.",
             "VII.",
             "VIII.",
             "IX."
          ],
-         "t":[
+         "t":[ 
+            "X."
+         ],
+         "a":[ 
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
             "X."
          ]
       },
-      "Úhagyma":{
-         "b":[
+      "Úhagyma":{ 
+         "b":[ 
             "V.",
             "VI.",
             "VII.",
@@ -1074,12 +1728,20 @@
             "IX.",
             "X."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "V.",
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X."
          ]
       },
-      "Vöröshagyma":{
-         "b":[
+      "Vöröshagyma":{ 
+         "b":[ 
             "V.",
             "VI.",
             "VII.",
@@ -1087,66 +1749,111 @@
             "IX.",
             "X."
          ],
-         "t":[
+         "t":[ 
             "I.",
             "II.",
             "III.",
             "IV.",
             "XI.",
             "XII."
+         ],
+         "a":[ 
+            "I.",
+            "II.",
+            "III.",
+            "IV.",
+            "V.",
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI.",
+            "XII."
          ]
       },
-      "Zellergumó":{
-         "b":[
+      "Zellergumó":{ 
+         "b":[ 
             "VII.",
             "VIII.",
             "IX.",
             "X.",
             "XI."
          ],
-         "t":[
+         "t":[ 
             "I.",
             "II.",
             "III.",
             "XII."
+         ],
+         "a":[ 
+            "I.",
+            "II.",
+            "III.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI.",
+            "XII."
          ]
       },
-      "Zöldbab":{
-         "b":[
+      "Zöldbab":{ 
+         "b":[ 
             "VI.",
             "VII.",
             "VIII.",
             "IX.",
             "X."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X."
          ]
       },
-      "Zöldborsó":{
-         "b":[
+      "Zöldborsó":{ 
+         "b":[ 
             "IV.",
             "V.",
             "VI.",
             "X."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "IV.",
+            "V.",
+            "VI.",
+            "X."
          ]
       },
-      "Zöldpaprika":{
-         "b":[
+      "Zöldpaprika":{ 
+         "b":[ 
             "VII.",
             "VIII.",
             "IX.",
             "X."
          ],
-         "t":[
+         "t":[ 
+            "XI."
+         ],
+         "a":[ 
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
             "XI."
          ]
       },
-      "Zsálya":{
-         "b":[
+      "Zsálya":{ 
+         "b":[ 
             "VI.",
             "VII.",
             "VIII.",
@@ -1154,8 +1861,16 @@
             "X.",
             "XI."
          ],
-         "t":[
+         "t":[ 
 
+         ],
+         "a":[ 
+            "VI.",
+            "VII.",
+            "VIII.",
+            "IX.",
+            "X.",
+            "XI."
          ]
       }
    }
