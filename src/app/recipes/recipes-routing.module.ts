@@ -6,9 +6,9 @@ import { RecipesComponent } from './recipes.component';
 const routes: Routes = [
   {
     path: '', component: RecipesComponent, children: [
-      { path: 'submit', loadChildren: './submit/submit.module#SubmitModule' },
-      { path: 'show', loadChildren: './show/show.module#ShowModule' },
-      { path: 'search', loadChildren: './search/search.module#SearchModule' }
+      { path: 'submit', loadChildren: () => import('./submit/submit.module').then(m => m.SubmitModule) },
+      { path: 'show', loadChildren: () => import('./show/show.module').then(m => m.ShowModule) },
+      { path: 'search', loadChildren: () => import('./search/search.module').then(m => m.SearchModule) }
     ]
   },
 ];

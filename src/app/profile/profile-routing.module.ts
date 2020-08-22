@@ -5,10 +5,10 @@ import { ProfileComponent } from './profile.component';
 
 const routes: Routes = [
   { path: '', component: ProfileComponent },
-  { path: 'data', loadChildren: './data/data.module#DataModule' },
-  { path: 'favs', loadChildren: './favs/favs.module#FavsModule' },
-  { path: 'filters', loadChildren: './filters/filters.module#FiltersModule' },
-  { path: 'badges', loadChildren: './badges/badges.module#BadgesModule' }
+  { path: 'data', loadChildren: () => import('./data/data.module').then(m => m.DataModule) },
+  { path: 'favs', loadChildren: () => import('./favs/favs.module').then(m => m.FavsModule) },
+  { path: 'filters', loadChildren: () => import('./filters/filters.module').then(m => m.FiltersModule) },
+  { path: 'badges', loadChildren: () => import('./badges/badges.module').then(m => m.BadgesModule) }
 ];
 
 @NgModule({

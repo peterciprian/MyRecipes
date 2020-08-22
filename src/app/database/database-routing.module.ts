@@ -5,10 +5,10 @@ import { DatabaseComponent } from './database.component';
 
 const routes: Routes = [
   { path: '', component: DatabaseComponent },
-  { path: 'shops', loadChildren: './shops/shops.module#ShopsModule' },
-  { path: 'articles', loadChildren: './articles/articles.module#ArticlesModule' },
-  { path: 'videos', loadChildren: './videos/videos.module#VideosModule' },
-  { path: 'events', loadChildren: './events/events.module#EventsModule' }
+  { path: 'shops', loadChildren: () => import('./shops/shops.module').then(m => m.ShopsModule) },
+  { path: 'articles', loadChildren: () => import('./articles/articles.module').then(m => m.ArticlesModule) },
+  { path: 'videos', loadChildren: () => import('./videos/videos.module').then(m => m.VideosModule) },
+  { path: 'events', loadChildren: () => import('./events/events.module').then(m => m.EventsModule) }
 ];
 
 @NgModule({
