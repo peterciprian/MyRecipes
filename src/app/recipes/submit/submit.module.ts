@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+// import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { SubmitRoutingModule } from './submit-routing.module';
 import { SubmitComponent } from './submit.component';
@@ -13,7 +13,7 @@ import { SubmitComponent } from './submit.component';
     CommonModule,
     SubmitRoutingModule,
     FormsModule,
-    NgbModule
+    // NgbModule
   ]
 })
 export class SubmitModule { }

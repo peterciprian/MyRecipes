@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+// import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { SearchRoutingModule } from './search-routing.module';
 import { SearchComponent } from './search.component';
@@ -13,7 +13,7 @@ import { SearchComponent } from './search.component';
     CommonModule,
     SearchRoutingModule,
     FormsModule,
-    NgbModule
+    // NgbModule
   ]
 })
 export class SearchModule { }
