@@ -13,23 +13,23 @@ import { Recipe } from '../recipe';
 })
 export class SearchComponent implements OnInit {
 
-  protected recipes: Array<Recipe>;
+  public recipes: Array<Recipe>;
 
-  protected month: string;
-  protected months: Array<string>;
+  public month: string;
+  public months: Array<string>;
 
-  protected ingredent: Array<string>;
-  protected ingredents: Array<string>;
+  public ingredent: Array<string>;
+  public ingredents: Array<string>;
 
-  protected type: Array<string>;
-  protected types: Array<string>;
+  public type: Array<string>;
+  public types: Array<string>;
 
-  protected lacking: Array<string>;
-  protected lackings: Array<string>;
+  public lacking: Array<string>;
+  public lackings: Array<string>;
 
-  protected temperature: Array<string>;
-  protected temperatures: Array<string>;
-  protected preserved: boolean;
+  public temperature: Array<string>;
+  public temperatures: Array<string>;
+  public preserved: boolean;
 
   private noData = false;            // Showing No Student Message, when no student in database.
   private preLoader = true;          // Showing Preloader to show user data is coming for you from thre server(A tiny UX Shit)

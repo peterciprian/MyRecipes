@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styles: []
 })
 export class DatabaseComponent implements OnInit {
-  private typeName: string;
+  public typeName: string;
   constructor() {
     this.typeName = this.getName();
   }

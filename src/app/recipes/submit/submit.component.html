@@ -45,8 +45,8 @@
     <div class="input-group-prepend">
       <div class=" input-group-text vw9">Hozzávalók</div>
     </div>
-    <select name="ingredentName">
-      <option *ngFor="let ingredent of ingredentList" value="ingredent" [(ngModel)]="newIngredent.name">{{ingredent}}</option>
+    <select name="newIngredentName" [(ngModel)]="newIngredent.name">
+      <option *ngFor="let ingredent of ingredentList" value="ingredent">{{ingredent}}</option>
     </select>
     <!-- <input id="newIngredentName" type="text" class="form-control" [(ngModel)]="newIngredent.name"
       [ngbTypeahead]="ingredentSearch" name="name" placeholder="összetevő" /> -->

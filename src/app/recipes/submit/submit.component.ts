@@ -13,16 +13,16 @@ import { CrudService } from 'src/app/shared/crud.service';
 })
 export class SubmitComponent implements OnInit {
 
-  protected newRecipe: Recipe;
+  public newRecipe: Recipe;
 
-  protected newIngredent: Ingredent;
+  public newIngredent: Ingredent;
 
-  protected months: string[];
-  protected month: string;
-  protected ingredentList: string[];
-  protected typeList: string[];
-  protected lackingList: string[];
-  protected temperatureList: string[];
+  public months: string[];
+  public month: string;
+  public ingredentList: string[];
+  public typeList: string[];
+  public lackingList: string[];
+  public temperatureList: string[];
 
   constructor(private options: SearchOptionsService, private crudService: CrudService) {
     this.months = options.months;
