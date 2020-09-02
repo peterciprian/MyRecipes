@@ -1,6 +1,10 @@
 {
   "name": "my-recipes",
   "version": "0.0.0",
+  "author": {
+    "name": "Oláh Péter Ciprián",
+    "email": "peterciprian@gmail.com"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
